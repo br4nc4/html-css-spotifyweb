@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+                                                <!-- forse over-hidden qui non è necessario -->
+    <div class="main-container row flex-column over-hidden"> <!-- contenitore padre di tutto il progetto -->
+
+        <div class="row flex-grow over-hidden"> <!-- primo item-flex che è a sua volta un contenitore flex -->
+
+            <div class="sidebar shrink stretch row flex-column"> <!-- la sidebar deve avere dimensione statica -->
+
+                <div class="shrink"> <!-- contenitore logo -->
+
+                </div>
+
+                <div class="shrink"> <!-- contenitore tre pulsanti -->
+
+                </div>
+
+                <div class="playlist-container flex-grow over-hidden"> <!-- contenitore della playlist -->
+        
+
+                    <div class="shrink">
+
+                    </div>
+
+                    <div class="flex-grow over-auto">
+
+                    </div>
+
+                
+                </div>
+
+                <div class="shrink"> <!-- ultimo contenitore infondo con due pulsanti -->
+
+                </div>
+
+            </div>
+                                                        <!-- contenitore che sta alla destra della sidebar -->
+            <div class="flex-grow stretch over-hidden row flex-column"> <!-- valutare se mettere height 100% -->
+                                                                        <!-- valutare se sia anche un d-flex con direction column -->
+                <div class="topbar shrink"> <!-- effettua l'UPGRADE -->
+
+                </div>
+                                                
+                <div class="over-auto flex-grow"> <!-- sezione con cover dei dischi -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="shrink"> <!-- secondo item-flex  con la barra del player-->
+            
+            <div class="player-container row jus-between">
+
+                <div class="left-container shrink">
+
+                    <div>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+
+                </div>
+
+                <div class="center-container flex-grow"> <!-- sezione in cui è presente il vero player con il tasto -->
+
+                    <div class="row">
+
+                        <div>  <!-- forse ci vuole flex-grow -->
+
+                            <div></div> <!-- dentro a questi div vanno messi i pulsanti -->
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row"> <!-- barra stato di riproduzione -->
+
+                        <div class="shrink"> <!-- tempo riproduzione -->
+
+                        </div>
+
+                        <div class="flex-grow"> <!-- barra stato di riproduzione -->
+
+                        </div>
+
+                        <div class="shrink"> <!-- tempo riproduzione -->
+
+                        </div>
+
+                    </div>
+
+                </div> 
+
+                <div class="right-container shrink">
+
+                    <div>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
