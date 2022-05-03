@@ -50,6 +50,10 @@ body{
     justify-content: space-between;
 }
 
+.jus-center{
+    justify-content: center;
+}
+
 .pos-sticky{
     position: sticky;
 }
@@ -114,6 +118,22 @@ body{
     line-height: 3rem;
 }
 
+.player-state{
+    height: 4px;
+    width: 360px;
+    background-color: var(--color-txt-second);
+    border-radius: 4px;
+}
+
+.player-state::before{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100px;
+    background-color: var(--color-icons);
+    border-radius: 4px;
+}
+
 /************************CSS COLORS TEXT******************************************/
 .cl-txt-first{
     color: var(--color-txt-first);
@@ -158,6 +178,18 @@ body{
 
 .size-img-first{
     width: 40px;
+}
+
+.size-player-first{
+    width: 16px;
+}
+
+.size-player-second{
+    width: 12px;
+}
+
+.size-player-third{
+    width: 30px;
 }
 
 .card-pd-first{
