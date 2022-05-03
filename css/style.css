@@ -21,6 +21,10 @@ body{
     --color-topbar:rgba(0,0,0,0.4);
 }
 
+.inline-block{
+    display: inline-block;
+}
+
 .row{
     display: flex;
 }
@@ -82,12 +86,12 @@ body{
 }
 
 .sidebar{
-    width: 200px; /* larghezza di debug */
-    background-color: var(--color-sidebar);
+    width: 200px; /* larghezza di debug */  /* da valutare nel corso dell'esercizio */
+    background-color: var(--color-sidebar); 
 }
 
 .topbar{
-    min-height: 100px; /* altezza di debug */
+    min-height: 80px; /* altezza di debug */
     background-color: var(--color-topbar);
 }
 
@@ -95,4 +99,54 @@ body{
     max-width: 400px;
 }
 
+/************************CSS COLORS TEXT******************************************/
+.cl-txt-second{
+    color: var(--color-txt-second);
+}
+
+
+
+
+
+
+
+
+
+/***************************CSS SIZES-DIMESIONS**************************************/
+.size-logo-first{
+    width: 130px;
+}
+
+.size-icon-first{
+    width: 25px;
+}
+
+
+
+
+
+/***************************MEDIA QUERY RESPONSIVNESS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1100px) {
+    body{
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body{
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        width: 100%;
+    }
+}
 
