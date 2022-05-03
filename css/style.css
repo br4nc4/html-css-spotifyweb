@@ -148,6 +148,15 @@ body{
     width: 19px;
 }
 
+.size-icon-third{
+    width: 6px;
+}
+
+.card-pd-first{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 
 
