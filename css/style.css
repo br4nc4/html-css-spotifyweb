@@ -26,6 +26,10 @@ body{
     display: inline-block;
 }
 
+.self-center{
+    align-self: center;
+}
+
 .row{
     display: flex;
 }
@@ -130,6 +134,22 @@ body{
     display: block;
     height: 4px;
     width: 100px;
+    background-color: var(--color-icons);
+    border-radius: 4px;
+}
+
+.player-volume{
+    height: 4px;
+    width: 130px;
+    background-color: var(--color-txt-second);
+    border-radius: 4px;
+}
+
+.player-volume::before{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 30px;
     background-color: var(--color-icons);
     border-radius: 4px;
 }
