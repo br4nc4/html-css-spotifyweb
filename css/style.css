@@ -62,10 +62,6 @@ body{
     overflow: hidden;
 }
 
-.height-100{
-    height: 100%;
-}
-
 .main-container{
     height: 100vh;
 }
@@ -127,6 +123,10 @@ body{
     color: var(--color-txt-second);
 }
 
+.cl-txt-third{
+    color: var(--color-txt-third);
+}
+
 
 
 
@@ -150,6 +150,14 @@ body{
 
 .size-icon-third{
     width: 6px;
+}
+
+.size-icon-fourth{
+    width: 15px;
+}
+
+.size-img-first{
+    width: 40px;
 }
 
 .card-pd-first{
