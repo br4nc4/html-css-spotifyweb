@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 :root{
@@ -82,9 +83,6 @@ body{
     background-color: var(--color-player-container);
 }
 
-.playlist-container{
-}
-
 .sidebar{
     width: 200px; /* larghezza di debug */  /* da valutare nel corso dell'esercizio */
     background-color: var(--color-sidebar); 
@@ -99,7 +97,24 @@ body{
     max-width: 400px;
 }
 
+.playlist-container-plus{
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-icons);
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-container-text{
+    align-self: center;
+    padding-left: .6rem;
+}
+
 /************************CSS COLORS TEXT******************************************/
+.cl-txt-first{
+    color: var(--color-txt-first);
+}
+
 .cl-txt-second{
     color: var(--color-txt-second);
 }
@@ -120,6 +135,11 @@ body{
 .size-icon-first{
     width: 25px;
 }
+
+.size-icon-second{
+    width: 19px;
+}
+
 
 
 
