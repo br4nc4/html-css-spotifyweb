@@ -18,6 +18,7 @@ body{
     --color-container-cover: #141922;
     --color-sidebar: #000000;
     --color-player-container: #282828;
+    --color-topbar:rgba(0,0,0,0.4);
 }
 
 .row{
@@ -69,20 +70,25 @@ body{
     overflow: hidden;
 }
 
-.player-container{
+.cover-top-container{
+    background-color: var(--color-container-cover);
+}
 
+.player-container{
+    background-color: var(--color-player-container);
 }
 
 .playlist-container{
-
 }
 
 .sidebar{
-    width: 150px; /* larghezza di debug */
+    width: 200px; /* larghezza di debug */
+    background-color: var(--color-sidebar);
 }
 
 .topbar{
-    min-height: 50px; /* altezza di debug */
+    min-height: 100px; /* altezza di debug */
+    background-color: var(--color-topbar);
 }
 
 .center-container{
