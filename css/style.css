@@ -116,10 +116,7 @@ body{
 
 .playlist-names{
     list-style: none;
-}
-
-.playlist-names li{
-    line-height: 3rem;
+    line-height: 1rem;
 }
 
 .player-state{
