@@ -288,10 +288,22 @@ body{
 /***************************MEDIA QUERY RESPONSIVNESS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 1100px){
     .main-container{
-        max-width: 878px;
+        width: 878px;
+    }
+
+    .gap-first{
+        gap: .5rem;
+    }
+
+    .album-max-width{
+        width: calc(100% / 2);
     }
 
     .col-six{
-        flex-basis: calc((100% / 4) - 1rem);
+        flex-basis: calc((100% / 4) - .5rem);
+    }
+
+    .col-two{
+        flex-basis: calc((100% / 2) - .5rem);
     }
 }
