@@ -17,7 +17,9 @@
 
                 <div class="shrink"> <!-- contenitore logo -->
 
-                    <img class="size-logo-first" src="img/logo.svg" alt="">
+                    <img class="d-none size-icon-first" src="img/logo-small.svg" alt="">
+
+                    <img class="logo-int size-logo-first" src="img/logo.svg" alt="">
 
                 </div>
 
@@ -25,25 +27,26 @@
 
                     <div> <!-- prima icona -->
                         <img class="size-icon-first" src="img/home.svg" alt="">
-                        <span class="cl-txt-first">Home</span>
+                        <small class="inline-block cl-txt-first">Home</small>
                     </div>
 
                     <div> <!-- seconda icona -->
                         <img class="size-icon-first" src="img/search.svg" alt="">
-                        <span class="cl-txt-second">Cerca</span>
+                        <small class="inline-block cl-txt-second">Cerca</small>
                     </div>
 
                     <div> <!-- terza icona -->
                         <img class="size-icon-first" src="img/libreria.svg" alt="">
-                        <span class="cl-txt-second">La tua libreria</span>
+                        <small class="inline-block cl-txt-second">La tua libreria</small>
                     </div>
 
                 </div>
-                                                        
-                <div class="playlist-container flex-grow over-hidden row flex-column"> <!-- contenitore della playlist -->
+                
+                <!-- contenitore della playlist -->
+                <div class="playlist-container flex-grow over-hidden row flex-column"> 
         
 
-                    <div class="shrink"> <!-- titolo: playlist più icona -->
+                    <div class="shrink inline-block"> <!-- titolo: playlist più icona -->
 
                         <div style="font-weight: 800;" class="cl-txt-first">PLAYLIST</div> <!-- ricordarsi del bold inline -->
 
@@ -61,7 +64,8 @@
 
                     </div>
 
-                    <div class="flex-grow over-auto cl-txt-second">
+                    <!-- sezione con i nomi della PLAYLIST -->
+                    <div class="flex-grow over-auto cl-txt-second inline-block">
 
                             <ul class="playlist-names">
                                 
@@ -108,20 +112,23 @@
                 
                 </div>
 
-                <div class="shrink"> <!-- ultimo contenitore infondo con due pulsanti -->
-                    <div style="border-bottom: 1px solid #7A7C81;"> <!-- creare una classe per assegnare questo bordo -->
+                <!-- ultimo contenitore infondo con due pulsanti -->
+                <div class="shrink"> 
+                    <div>
 
                         <svg class="size-icon-third" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
 
-                        <span class="cl-txt-second">Installa App</span>
+                        <small class="inline-block cl-txt-second">Installa App</small>
 
                     </div>
+
+                    <hr>
 
                     <div>
 
                         <img class="size-icon-second" src="img/profile.svg" alt="">
 
-                        <span class="cl-txt-first">Jhon Doe</span>
+                        <small class="inline-block cl-txt-first">Jhon Doe</small>
 
                     </div>
 
@@ -140,12 +147,18 @@
 
                     <!-- NAVBAR SOPRA GLI ALBUM -->
                     <div class="txt-cntr cl-txt-second flex-grow">
-                        <h5 class="inline-block pd-right">IN EVIDENZA</h5>
-                        <h5 class="inline-block pd-right">PODCAST</h5>
-                        <h5 class="inline-block pd-right">CLASSIFICHE</h5>
-                        <h5 class="inline-block pd-right">GENERI E MOOD</h5>
-                        <h5 class="inline-block pd-right">NUOVE USCITE</h5>
-                        <h5 class="inline-block pd-right">SCOPRI</h5>
+
+                        <div class="row jus-center">
+
+                            <h5 class="pd-right">IN EVIDENZA</h5>
+                            <h5 class="pd-right">PODCAST</h5>
+                            <h5 class="pd-right">CLASSIFICHE</h5>
+                            <h5 class="pd-right">GENERI E MOOD</h5>
+                            <h5 class="pd-right">NUOVE USCITE</h5>
+                            <h5 class="pd-right">SCOPRI</h5>
+
+                        </div>
+                        
                     </div>
 
 

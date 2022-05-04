@@ -22,6 +22,10 @@ body{
     --color-topbar:rgba(0,0,0,0.4);
 }
 
+.d-none{
+    display: none;
+}
+
 .inline-block{
     display: inline-block;
 }
@@ -178,6 +182,8 @@ body{
     text-align: center;
 }
 
+
+
 /************************CSS COLORS TEXT******************************************/
 .cl-txt-first{
     color: var(--color-txt-first);
@@ -330,7 +336,7 @@ body{
     }
 }
 
-@media screen and (max-width: 878px){
+@media screen and (max-width: 858px){
     .main-container{
         width: 639px;
     }
@@ -352,9 +358,9 @@ body{
         gap: 1rem;
     }
 
-    .gap-player-state{
-        gap: .5rem;
-    }
+/*  .gap-player-state{
+        gap: 0;
+    } */
     
     .heart-folder{
         flex-direction: column;
@@ -362,6 +368,76 @@ body{
 
     .gap-heart-folder{
         gap: .3rem;
+    }
+
+    .pd-left{
+        padding-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 619px){
+    .main-container{
+        width: 552px;
+    }
+
+    .gap-album{
+        gap: .5rem;
+    }
+
+    .album-max-width{
+        width: 100%;
+    }
+
+    .col-six{
+        flex-basis: calc((100% / 2) - .5rem);
+    }
+
+    .player-container{
+        background-color: var(--color-player-container);
+        gap: 1rem;
+    }
+
+/*  .gap-player-state{
+        gap: 0;
+    } */
+    
+    .heart-folder{
+        flex-direction: column;
+    }
+
+    .gap-heart-folder{
+        gap: .3rem;
+    }
+
+    .pd-left{
+        padding-left: 0.2rem;
+    }
+
+    .inline-block{
+        display: none;
+    }
+
+    .d-none{
+        display: block;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .logo-int{
+        display: none;
+    }
+
+    .sidebar{
+        width: 40px; /* larghezza di debug */  /* da valutare nel corso dell'esercizio */
+        background-color: var(--color-sidebar); 
+    }
+
+    .card-pd-first{
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
