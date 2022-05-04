@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 :root{
@@ -26,8 +26,12 @@ body{
     display: inline-block;
 }
 
-.self-center{
-    align-self: center;
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
 }
 
 .row{
@@ -98,7 +102,13 @@ body{
 }
 
 .center-container{
+    width: 40%;
     max-width: 400px;
+}
+
+.right-container{
+    max-width: 190px;
+    width: 20%;
 }
 
 .playlist-container-plus{
@@ -116,12 +126,13 @@ body{
 
 .playlist-names{
     list-style: none;
-    line-height: 1rem;
+    /* line-height: 1rem; */
+    /* ricordati di usare dello spazio tra le liste */
 }
 
 .player-state{
     height: 4px;
-    width: 360px;
+    /* width: 360px; */
     background-color: var(--color-txt-second);
     border-radius: 4px;
 }
@@ -137,7 +148,7 @@ body{
 
 .player-volume{
     height: 4px;
-    width: 130px;
+    /* width: 130px; */
     background-color: var(--color-txt-second);
     border-radius: 4px;
 }
@@ -201,6 +212,10 @@ body{
     width: 40px;
 }
 
+.size-img-second{
+    width: 190px;
+}
+
 .size-player-first{
     width: 16px;
 }
@@ -218,6 +233,30 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.card-pd-second{
+    padding: .8rem .8rem 2rem .8rem;
+}
+
+.play-pd{
+    padding: 0 .5rem;
+}
+
+.volume-pd{
+    padding-left: 1rem;
+}
+
+.gap-first{
+    gap: 1rem;
+}
+
+.gap-second{
+    gap: 2rem;
+}
+
+
+
+
 
 
 
