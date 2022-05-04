@@ -101,6 +101,7 @@ body{
 
 .player-container{
     background-color: var(--color-player-container);
+    gap: 16rem;
 }
 
 .sidebar{
@@ -261,12 +262,24 @@ body{
     gap: 1rem;
 }
 
+.gap-album{
+    gap: 1rem;
+}
+
 .gap-second{
     gap: 2rem;
 }
 
 .gap-third{
     gap: .5rem;
+}
+
+.gap-heart-folder{
+    gap: 1rem;
+}
+
+.gap-player-state{
+    gap: 2rem;
 }
 
 .pd-right{
@@ -291,7 +304,7 @@ body{
         width: 878px;
     }
 
-    .gap-first{
+    .gap-album{
         gap: .5rem;
     }
 
@@ -306,4 +319,49 @@ body{
     .col-two{
         flex-basis: calc((100% / 2) - .5rem);
     }
+
+    .player-container{
+        background-color: var(--color-player-container);
+        gap: 4rem;
+    }
+
+    .gap-player-state{
+        gap: 1rem;
+    }
 }
+
+@media screen and (max-width: 878px){
+    .main-container{
+        width: 639px;
+    }
+
+    .gap-album{
+        gap: .5rem;
+    }
+
+    .album-max-width{
+        width: 100%;
+    }
+
+    .col-six{
+        flex-basis: calc((100% / 2) - .5rem);
+    }
+
+    .player-container{
+        background-color: var(--color-player-container);
+        gap: 1rem;
+    }
+
+    .gap-player-state{
+        gap: .5rem;
+    }
+    
+    .heart-folder{
+        flex-direction: column;
+    }
+
+    .gap-heart-folder{
+        gap: .3rem;
+    }
+}
+
