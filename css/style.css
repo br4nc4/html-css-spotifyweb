@@ -43,7 +43,7 @@ body{
 }
 
 .col{
-    flex-basis: calc(100% / 6);
+    flex-basis: calc((100% / 6) - 1rem);
 }
 
 .flex-column{
@@ -225,7 +225,7 @@ body{
 }
 
 .size-img-second{
-    width: 190px;
+    width: 100%;
 }
 
 .size-player-first{
