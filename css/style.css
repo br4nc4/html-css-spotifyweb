@@ -151,6 +151,10 @@ body{
     border-radius: 4px;
 }
 
+.navbar{
+    text-align: center;
+}
+
 /************************CSS COLORS TEXT******************************************/
 .cl-txt-first{
     color: var(--color-txt-first);
