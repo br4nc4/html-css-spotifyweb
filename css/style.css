@@ -19,7 +19,7 @@ body{
     --color-container-cover: #141922;
     --color-sidebar: #000000;
     --color-player-container: #282828;
-    --color-topbar:rgba(0,0,0,0.4);
+    --color-topbar:rgba(0,0,0,0.3);
 }
 
 .d-none{
@@ -432,6 +432,7 @@ body{
     .sidebar{
         width: 40px; /* larghezza di debug */  /* da valutare nel corso dell'esercizio */
         background-color: var(--color-sidebar); 
+        align-items: center;
     }
 
     .card-pd-first{
