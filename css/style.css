@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 
 *{
     margin: 0;
@@ -22,6 +22,10 @@ body{
     --color-topbar:rgba(0,0,0,0.4);
 }
 
+.ratio{
+    aspect-ratio: 1/1;
+}
+
 .inline-block{
     display: inline-block;
 }
@@ -38,6 +42,10 @@ body{
     display: flex;
 }
 
+.col{
+    flex-basis: calc(100% / 6);
+}
+
 .flex-column{
     flex-direction: column;
 }
@@ -48,6 +56,10 @@ body{
 
 .flex-grow{
     flex-grow: 1;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .stretch{
