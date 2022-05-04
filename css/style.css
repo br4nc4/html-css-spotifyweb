@@ -22,10 +22,6 @@ body{
     --color-topbar:rgba(0,0,0,0.4);
 }
 
-.ratio{
-    aspect-ratio: 1/1;
-}
-
 .inline-block{
     display: inline-block;
 }
@@ -174,7 +170,7 @@ body{
     border-radius: 4px;
 }
 
-.navbar{
+.txt-cntr{
     text-align: center;
 }
 
@@ -225,7 +221,7 @@ body{
 }
 
 .size-img-second{
-    width: 100%;
+    width: 180px;
 }
 
 .size-player-first{
@@ -264,6 +260,14 @@ body{
 
 .gap-second{
     gap: 2rem;
+}
+
+.gap-third{
+    gap: .5rem;
+}
+
+.pd-right{
+    padding-right: 1rem;
 }
 
 
