@@ -280,6 +280,12 @@ small{
     padding: .8rem .8rem 2rem .8rem;
 }
 
+.card-pd-album-container{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .play-pd{
     padding: 0 .5rem;
 }
