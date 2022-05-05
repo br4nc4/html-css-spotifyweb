@@ -135,7 +135,7 @@ small{
 
 .player-container{
     background-color: var(--color-player-container);
-    gap: 16rem;
+    justify-content: space-around;
 }
 
 .sidebar{
