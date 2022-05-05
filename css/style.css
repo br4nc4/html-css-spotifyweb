@@ -283,6 +283,10 @@ body{
     gap: .5rem;
 }
 
+.gap-fourth{
+    gap: .8rem;
+}
+
 .gap-heart-folder{
     gap: 1rem;
 }
