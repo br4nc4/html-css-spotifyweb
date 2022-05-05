@@ -257,7 +257,21 @@ small{
     color: white;
 }
 
+.play-pd svg:hover{
+    transform: scale(1.3);
+}
 
+.search small:hover{
+    color: white;
+}
+
+.library small:hover{
+    color: white;
+}
+
+.heart-folder svg:hover{
+    filter: brightness(2);
+}
 
 
 
