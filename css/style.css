@@ -90,10 +90,6 @@ small{
     justify-content: flex-end;
 }
 
-.pos-sticky{
-    position: sticky;
-}
-
 .over-auto{
     overflow: auto;
 }
@@ -289,6 +285,15 @@ small{
 
 .upgrade-button:hover{
     transform: scale(1.1);
+}
+
+.player-state:hover::before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 30%;
+    background-color: #ADFF2F;
+    border-radius: 4px;
 }
 
 /* .playlist-container-text h5:hover{
