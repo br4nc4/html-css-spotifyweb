@@ -421,6 +421,10 @@ small{
     gap: .8rem;
 }
 
+.gap-column-down-user{
+    gap: 0.6rem;
+}
+
 .pd-logo{
     padding-bottom: 1.7rem;
 }
@@ -592,6 +596,10 @@ small{
 
     .gap-user{
         gap: 0;
+    }
+
+    .gap-column-down-user{
+        gap: 1.5rem;
     }
 }
 
