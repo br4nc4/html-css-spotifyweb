@@ -193,7 +193,6 @@ body{
 }
 
 
-
 /************************CSS COLORS TEXT******************************************/
 .cl-txt-first{
     color: var(--color-txt-first);
@@ -300,6 +299,14 @@ body{
 
 .gap-player-state{
     gap: 2rem;
+}
+
+.gap-user{
+    gap: .5rem;
+}
+
+.gap-down{
+    gap: .8rem;
 }
 
 .pd-logo{
@@ -461,6 +468,18 @@ body{
         padding-top: 0;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .down-user{
+        align-items: center;
+    }
+
+    .gap-down{
+        gap: 0;
+    }
+
+    .gap-user{
+        gap: 0;
     }
 }
 
