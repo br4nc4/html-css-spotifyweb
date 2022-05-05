@@ -6,9 +6,17 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     /* font-size: 15px; */
+}
+
+small{
+    font-size: 12px;
 }
 
 :root{
@@ -103,7 +111,7 @@ body{
 
 .cover-rnd-user{
     width: 25px;
-    background-color: #A5A5A5;
+    background-color: #808080;
     border-radius: 50%;
     height: 25px;
     overflow: hidden;
@@ -190,6 +198,13 @@ body{
 
 .txt-cntr{
     text-align: center;
+}
+
+.top-nav{
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 13px;
+    flex-wrap: wrap;
 }
 
 
