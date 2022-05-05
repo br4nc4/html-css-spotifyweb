@@ -211,6 +211,13 @@ small{
     flex-wrap: wrap;
 }
 
+.under-top-nav{
+    background-color: #ADFF2F;
+    width: 30px;
+    height: 2px;
+}
+
+
 
 
 /**************************************************CSS HOVER COVER ALBUM *******************************************************/
@@ -246,6 +253,9 @@ small{
     display: block;
 }
 
+.top-nav a:hover{
+    color: white;
+}
 
 
 
