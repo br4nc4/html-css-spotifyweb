@@ -157,9 +157,12 @@ small{
 .playlist-container-plus{
     width: 35px;
     height: 35px;
-    background-color: var(--color-icons);
     justify-content: center;
     align-items: center;
+}
+
+.bg-playlist-plus{ /* ho isolato il colore dal container per i test sull'HOVER */
+    background-color: var(--color-icons); 
 }
 
 .playlist-container-text{
@@ -273,6 +276,14 @@ small{
     filter: brightness(2);
 }
 
+
+
+
+
+/* .playlist-container-text h5:hover{
+    color: white;
+}
+ */
 
 
 
